@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    background-color: #071d2b;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 27px;
+    height: 40px;
+    width: 138px;
+}
+:root{
+    --clr:#b2bec7;
+}
+
+.country {
+    color: var(--clr);
+    font-size: 18px;
+    border: 0.01px solid var(--clr);
+    border-radius: 21px;
+    width: 197px;
+    height: 33px;
+    position: absolute;
+    left: 45px;
+    top: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: 0 4px 6px 1px black;
+
+}
+.social-icons a {
+    color: var(--clr);
+    font-size: 1.7em;
+    padding-right: 30px;
+    transform: translateX(34px,373px);
+    width: 62px;
+    display: inline-block;
+    position: relative;
+    top: 408px;
+    left: 34px;
+    
+
+}
+.country span{
+    font-size: 15px;
+}
+
+.country i{
+    color: #b2bec7;
+}
+
+.down{
+    margin-left: 23px;
+    margin-top: 3px;
+}
+.final title{
+    display: block;
+}
+
+.final h{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.forhome{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 317px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    color: var(--clr);
+}
+.forbusiness{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 271px;
+    position: absolute;
+    top: 100px;
+    left: 694px;
+    color: var(--clr);
+}
+.forpartner{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 87px;
+    position: absolute;
+    top: 100px;
+    left: 906px;
+    color: var(--clr);
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 422px;
+    position: absolute;
+    top: 100px;
+    left: 1107px;
+    color: var(--clr);
+}
+
+.box{
+    position: absolute;
+    width: 1098px;
+    border: 1px solid var(--clr);
+    top: 565px;
+    left: 101px;
+}
+
+.last{
+    position: absolute;
+    top: 568px;
+    left: 50px;
+    width: 1081px;
+    line-height: 3;
+    color: var(--clr);
+}
+
+.dot{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
